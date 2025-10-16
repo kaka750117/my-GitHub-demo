@@ -1,0 +1,10 @@
+name: hamza
+on: push
+jobs:
+  my-jobs:
+     runs-on: windows
+     steps:
+       - name: mystep
+          run: echo "hamza"
+
+
